@@ -64,6 +64,7 @@ app.put("/jokes/:id", (req, res) => {
   res.json(replacementJoke);
 });
 
+console.log("The cows are here!")
 // app.put("/jokes/:id", (req, res) => {
 //   const id = parseInt(req.params.id);
 //   const replacementJoke = {
